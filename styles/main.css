@@ -27,11 +27,18 @@
 
 
 /* header adjusmtments */
+/* banner image */
+.banner img {
+    height: auto;
+    max-width: 100%;
+}
+
 /* titles */
 .pagetitle {
     font-family: 'adira_display_ssiregular';
     font-size: 50px;
     text-align: center;
+    
 
 }
 
@@ -44,6 +51,9 @@ ul {
     list-style-type: none;
     display: flex;
     font-size: 15px;
+    margin: 2% 15%;
+    padding: 2%;
+    justify-content: space-between;
 }
 
 
