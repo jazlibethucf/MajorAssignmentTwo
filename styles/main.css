@@ -26,7 +26,7 @@
 }
 
 
-/* header styles */
+/* header adjusmtments */
 /* titles */
 .pagetitle {
     font-family: 'adira_display_ssiregular';
@@ -38,6 +38,15 @@
 .subtitle {
     text-align: center;
 }
+
+ul {
+    border-style: solid;
+    list-style-type: none;
+    display: flex;
+    font-size: 15px;
+}
+
+
 
 /* colors */
 body {
