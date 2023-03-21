@@ -61,21 +61,21 @@ ul {
 }
 
 
-
-/* colors */
+/*body adjust ments*/
 body {
     background-color: #F6E7E5;
     text-align: center;
 }
+p {
+    margin-left: 8%;
+    margin-right: 8%;
+}
 
 /* snapshot images */
 .snapshots img {
-    border-radius: 50%;
-    padding: 20px;
+    border-radius: 50px;
     margin: auto;
-    max-width: 130px;
-
-
+    max-width: 200px;
 }
 
 .snapshots {
@@ -99,5 +99,9 @@ body {
     border: 2px solid;
     padding: 5px;
     margin: 5px;
+}
 
+.grid-item img {
+    max-width: 100%;
+    margin: auto;
 }
