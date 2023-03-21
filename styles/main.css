@@ -3,27 +3,40 @@
 
 /* media quieries */
 /* mobile screen */
-@media screen and (max-width: 700px) {  
+@media screen and (max-width: 600px) {  
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
-        background-color: #D2ACB2;
-        border: 2px solid #5260A8;
+        background-color: #E994B1;
+        border: 15px groove #C35079;
         text-align: center;
     }
+
+    .snapshotpuppycat {
+        display: none;
+    }
+
 }
 /* tablet screen */
-@media screen and (min-width: 782px) {
+@media screen and (min-width: 600px) {
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        background-color: #D2ACB2;
-        border: 2px solid #5260A8;
+        background-color: #E994B1;
+        border: 15px groove #C35079;
         text-align: center;
+    }
+    .snapshotpuppycat {
+        display: none;
     }
 }
 /* desktop screen */
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 900px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+    }
 }
 /* header adjusmtments */
 /* banner image */
@@ -85,7 +98,7 @@ p {
 /* grid adjustments */
 .grid-item {
     background-color: white;
-    border: 2px solid #5260A8;
+    border: 2px white;
     padding: 5px;
     margin: 5px;
 }
