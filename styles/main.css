@@ -3,7 +3,7 @@
 
 /* media queries */
 /* mobile screen */
-@media screen and (max-width: 600px) {  
+@media screen and (max-width: 700px) {  
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
@@ -15,22 +15,18 @@
 }
 
 /* tablet screen */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto auto;
-       
-    }
-    .snapshotpuppycat {
-        display: none;
+        grid-template-columns: auto auto auto;
     }
 }
 
 /* desktop screen */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
     }
 }
 
