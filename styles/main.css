@@ -1,43 +1,39 @@
 /* importing normalize here */
 @import "normalize.css";
 
-/* media quieries */
+/* media queries */
 /* mobile screen */
 @media screen and (max-width: 600px) {  
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
-        background-color: #E994B1;
-        border: 15px groove #C35079;
-        text-align: center;
     }
 
     .snapshotpuppycat {
         display: none;
     }
-
 }
+
 /* tablet screen */
 @media screen and (min-width: 600px) {
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        background-color: #E994B1;
-        border: 15px groove #C35079;
-        text-align: center;
+       
     }
     .snapshotpuppycat {
         display: none;
     }
 }
+
 /* desktop screen */
 @media screen and (min-width: 900px) {
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto;
-
     }
 }
+
 /* header adjusmtments */
 /* banner image */
 .banner img {
@@ -71,7 +67,6 @@ ul {
     justify-content: space-between;
 }
 
-
 /*body adjust ments*/
 body {
     background-color: #F6E7E5;
@@ -95,7 +90,13 @@ p {
 }
 
 
-/* grid adjustments */
+/* grid adjustments despite media queries */
+.grid-container{
+background-color: #E994B1;
+border: 15px groove #C35079;
+text-align: center;
+}
+
 .grid-item {
     background-color: white;
     border: 2px white;
