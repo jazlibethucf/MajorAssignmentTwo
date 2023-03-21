@@ -1,6 +1,21 @@
 /* importing normalize here */
 @import "normalize.css";
 
+/* media quieries */
+/* mobile screen */
+@media screen and (max-width: 600px) {
+
+}
+/* tablet screen */
+@media screen and (min-width: 782px) {
+
+}
+/* desktop screen */
+@media screen and (min-width: 980px) {
+
+}
+
+
 /* importing a font */
 @font-face {
     font-family: 'adira_display_ssiregular';
@@ -12,11 +27,14 @@
 
 
 /* header styles */
-
-
 /* titles */
 .pagetitle {
-    font-family: adira_display_ssiregular;
+    font-family: 'adira_display_ssiregular';
     font-size: 50px;
+    text-align: center;
 
+}
+
+.subtitle {
+    text-align: center;
 }
