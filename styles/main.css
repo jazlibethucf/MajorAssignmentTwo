@@ -4,7 +4,7 @@
 /* media quieries */
 /* mobile screen */
 @media screen and (max-width: 600px) {
-
+    
 }
 /* tablet screen */
 @media screen and (min-width: 782px) {
@@ -37,4 +37,17 @@
 
 .subtitle {
     text-align: center;
+}
+
+/* colors */
+body {
+    background-color: #FAF9F6;
+    text-align: center;
+}
+
+/* grid adjustments */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #D2ACB2
 }
