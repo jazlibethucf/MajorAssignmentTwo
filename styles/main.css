@@ -38,12 +38,16 @@
     font-family: 'adira_display_ssiregular';
     font-size: 50px;
     text-align: center;
-    
-
+    color: #C35079;
 }
 
 .subtitle {
     text-align: center;
+    color: #5260A8;
+}
+
+.heading {
+    color: #60a6a4;
 }
 
 ul {
@@ -60,7 +64,7 @@ ul {
 
 /* colors */
 body {
-    background-color: #FAF9F6;
+    background-color: #F6E7E5;
     text-align: center;
 }
 
