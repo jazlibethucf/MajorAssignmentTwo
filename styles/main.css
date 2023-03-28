@@ -1,11 +1,12 @@
 /* importing normalize here */
 @import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@900&display=swap');
 
 /* font */
-@font-face {
+/*@font-face {
     font-family: BeeFont;
     src: url(../fonts/Encode_Sans_SC/EncodeSansSC-VariableFont_wdth\,wght.ttf);
-}
+}*/
 
 /* media queries */
 /* mobile screen */
@@ -38,10 +39,6 @@
 
 /* header adjusmtments */
 /* banner image */
-@font-face {
-    font-family: 'Varela Round';
-    src:url(fonts/VarelaRound-Regular);
-}
 
 .banner img {
     height: auto;
@@ -53,8 +50,8 @@
     font-size: 50px;
     text-align: center;
     color: #C35079;
-    font-family: 'Varela Round', sans-serif;
-    font-style: normal;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-style: Black 900;
 }
 
 .subtitle {
@@ -128,6 +125,6 @@ text-align: center;
 }
 
 .p3 {
-    background-color: #1e11d6;
+    background-color: #ffdcd9;
     /* #ffdcd9*/
 }
