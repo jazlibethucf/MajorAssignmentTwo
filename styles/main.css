@@ -149,9 +149,9 @@ figure {
 
 /* grid adjustments despite media queries */
 .grid-container{
-background-color: #E994B1;
-border: 15px groove #C35079;
-text-align: center;
+    background-color: #E994B1;
+    border: 15px groove #C35079;
+    text-align: center;
 }
 .grid-item {
     background-color: white;
