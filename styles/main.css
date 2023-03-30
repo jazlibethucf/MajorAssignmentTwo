@@ -37,6 +37,10 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
+
+    .banner img{
+        max-width: 500px;
+    }
 }
 
 /* header adjusmtments */
@@ -141,8 +145,23 @@ text-align: center;
 }
 
 /* section adjustments */
+.section1 {
+    display: inline;
+}
 .section1 img {
-    border-radius: 50px;
+    border-radius: 30px;
     margin: auto;
-    max-width: 200px;
+    max-width: 300px;
+}
+
+.section2 img {
+    border-radius: 30px;
+    margin: auto;
+    max-width: 300px;
+}
+
+.section3 img {
+    border-radius: 30px;
+    margin: auto;
+    max-width: 300px;
 }
