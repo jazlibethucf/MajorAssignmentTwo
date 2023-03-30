@@ -21,6 +21,29 @@
     .snapshotpuppycat {
         display: none;
     }
+    .snapshots img {
+        border-radius: 50px;
+        margin: auto;
+        max-width: 200px;
+    }
+    .section1 img {
+        border-radius: 30px;
+        margin: auto;
+        max-width: 300px;
+    }
+    
+    .section2 img {
+        border-radius: 30px;
+        margin: auto;
+        max-width: 300px;
+    }
+    
+    .section3 img {
+        border-radius: 30px;
+        margin: auto;
+        max-width: 300px;
+    }
+    
 }
 
 /* tablet screen */
@@ -41,7 +64,28 @@
     .snapshots {
         text-align: justify;
     }
+    .snapshots img {
+        border-radius: 50px;
+        margin: auto;
+        max-width: 200px;
+    }
+    .section1 img {
+        border-radius: 30px;
+        margin: auto;
+        max-width: 300px;
+    }
     
+    .section2 img {
+        border-radius: 30px;
+        margin: auto;
+        max-width: 300px;
+    }
+    
+    .section3 img {
+        border-radius: 30px;
+        margin: auto;
+        max-width: 300px;
+    }    
     /* text adjustments */
     body {
         font-size: 18px;
@@ -50,10 +94,41 @@
 
 /* desktop screen */
 @media screen and (min-width: 1000px) {
+    /* desktop grid adjustments */
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
+    .grid-item {
+        text-align: left;
+        font-size: 40px;
+        display: inline-grid;
+    }
+
+    /* image adjustments */
+    .snapshots img {
+        border-radius: 50px;
+        margin: auto;
+        max-width: 350px;
+    }
+    .section1 img {
+        border-radius: 30px;
+        margin: auto;
+        max-width: 500px;
+    }
+    
+    .section2 img {
+        border-radius: 30px;
+        margin: auto;
+        width: 1000px;
+    }
+    
+    .section3 img {
+        border-radius: 30px;
+        margin: auto;
+        max-width: 500px;
+    }
+    
 }
 
 /* header adjusmtments */
@@ -102,23 +177,6 @@ p {
 .section1 {
     display: inline;
 }
-.section1 img {
-    border-radius: 30px;
-    margin: auto;
-    max-width: 300px;
-}
-
-.section2 img {
-    border-radius: 30px;
-    margin: auto;
-    max-width: 300px;
-}
-
-.section3 img {
-    border-radius: 30px;
-    margin: auto;
-    max-width: 300px;
-}
 
 /* paragraph adjustments (within sections) */
 .p1 {
@@ -134,11 +192,7 @@ p {
 }
 
 /*image adjustments */
-.snapshots img {
-    border-radius: 50px;
-    margin: auto;
-    max-width: 200px;
-}
+
 .snapshots {
     display: flex;
     flex-direction: row;
